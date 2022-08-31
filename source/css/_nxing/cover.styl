@@ -1,0 +1,46 @@
+// 导航栏铺满整个屏幕，只在大于 2048px 分辨率下出现
+// .l_header
+//   @media screen and (max-width: $device-2k)
+//     left: 0 !important
+//     border-radius: 0 !important
+//     max-width: 100% !important
+
+// 标题样式修改
+article#post
+  & > h1,h2,h3
+    font-weight: 700
+    background: linear-gradient(to bottom,transparent 60%,rgba(189,202,219,.3) 0) no-repeat
+    display: initial
+    width: auto
+    border-bottom: none
+  & > h3
+    font-weight: 500
+    position: initial
+
+// 标题样式
+h1.title
+  margin: 10px
+  text-align: center
+  font-size: 2rem !important
+  font-weight: 600
+  font-family: $fontfamily-logo
+h1.title.common_read_h1
+  text-align: center !important
+  font-size: 2.5rem !important
+
+// blocknote 标题字号增大
+.note strong
+  font-size: 1.5rem
+  font-family: 'SentyGoldenBell'
+
+// 修改文章行间距
+article p
+  line-height: 2 !important;
+
+// 内容居左
+.post.post-v3.white-box  p
+  text-align: left
+
+// 头图只在列表页显示，进入文章页时不显示
+// #l_main .article .headimg-div
+//   display: none
