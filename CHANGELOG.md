@@ -1,5 +1,35 @@
 # Changelog
 
+## [5.7.7](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.6...5.7.7) (2022-11-24)
+
+
+### Bug Fixes
+
+* **#824:** 边界条件 ([13f4e0e](https://github.com/volantis-x/hexo-theme-volantis/commit/13f4e0e6be464519a1ea3e020b5da1b1396c1254))
+* yml string to list ([11ab545](https://github.com/volantis-x/hexo-theme-volantis/commit/11ab545b52967e639938be00f78cc6bdefa885d4))
+
+
+### Performance Improvements
+
+* **debug:** description 的配置检查改为warn警告并使用默认值 [#801](https://github.com/volantis-x/hexo-theme-volantis/issues/801) ([f82f547](https://github.com/volantis-x/hexo-theme-volantis/commit/f82f54718b081439ea40e5a105ba81be15c60de0))
+* **readmore:** readmore:false 优先级高于 auto_excerpt:true ([302bf4e](https://github.com/volantis-x/hexo-theme-volantis/commit/302bf4e101689c0df9e0b8cbb1778dd18a8d5567))
+
+## [5.7.6](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.5...v5.7.6) (2022-09-05)
+
+
+### Performance Improvements
+
+* **debug:** env pjax rightMenus ([7b569cc](https://github.com/volantis-x/hexo-theme-volantis/commit/7b569cce425c0b630f00e378449c4d8809e471fe))
+* **side:** 如果 sidebar 为空，隐藏 sidebar ([a264a8c](https://github.com/volantis-x/hexo-theme-volantis/commit/a264a8c6f7cb8fd2537af227bd0297fcb17d720c))
+
+## [5.7.5](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.4...v5.7.5) (2022-08-25)
+
+
+### Bug Fixes
+
+* **pandown:** Uncaught TypeError: pandown is not a function ([371b1ec](https://github.com/volantis-x/hexo-theme-volantis/commit/371b1ece729a719f102854d3175ce440f90b4a14))
+* search ([7f11915](https://github.com/volantis-x/hexo-theme-volantis/commit/7f11915c4c672f427a6044e2614ed85e7e052587))
+
 ## [5.7.4](https://github.com/volantis-x/hexo-theme-volantis/compare/v5.7.3...v5.7.4) (2022-08-15)
 
 
